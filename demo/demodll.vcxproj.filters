@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
@@ -7,5 +7,92 @@
     <Filter Include="Header Files">
       <UniqueIdentifier>{A462C8EC-258E-39C7-80EC-13BA099A86F4}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BCMenu.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="demo.cpp" />
+    <ClCompile Include="demoDoc.cpp" />
+    <ClCompile Include="demoView.cpp" />
+    <ClCompile Include="dlgcapture.cpp" />
+    <ClCompile Include="DlgColorize.cpp" />
+    <ClCompile Include="DlgCombine.cpp" />
+    <ClCompile Include="DlgCustomFilter.cpp" />
+    <ClCompile Include="DlgDataExt.cpp" />
+    <ClCompile Include="DlgDecBpp.cpp" />
+    <ClCompile Include="DlgDither.cpp" />
+    <ClCompile Include="DlgExpand.cpp" />
+    <ClCompile Include="DlgFFT.cpp" />
+    <ClCompile Include="DlgFloodFill.cpp" />
+    <ClCompile Include="DlgGamma.cpp" />
+    <ClCompile Include="DlgHisto.cpp" />
+    <ClCompile Include="DlgIncBpp.cpp" />
+    <ClCompile Include="DlgJpeg.cpp" />
+    <ClCompile Include="DlgMix.cpp" />
+    <ClCompile Include="DlgOpacity.cpp" />
+    <ClCompile Include="DlgOptions.cpp" />
+    <ClCompile Include="DlgPalette.cpp" />
+    <ClCompile Include="DlgRepair.cpp" />
+    <ClCompile Include="DlgResample.cpp" />
+    <ClCompile Include="DlgRotate.cpp" />
+    <ClCompile Include="DlgShadow.cpp" />
+    <ClCompile Include="DlgSkew.cpp" />
+    <ClCompile Include="DlgText.cpp" />
+    <ClCompile Include="DlgThreshold.cpp" />
+    <ClCompile Include="DlgURL.cpp" />
+    <ClCompile Include="logomdi.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Quantize.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="TwainCpp.cpp" />
+    <ClCompile Include="xTargetButton.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BCMenu.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="demo.h" />
+    <ClInclude Include="demoDoc.h" />
+    <ClInclude Include="demoView.h" />
+    <ClInclude Include="dlgcapture.h" />
+    <ClInclude Include="DlgColorize.h" />
+    <ClInclude Include="DlgCombine.h" />
+    <ClInclude Include="DlgCustomFilter.h" />
+    <ClInclude Include="DlgDataExt.h" />
+    <ClInclude Include="DlgDecBpp.h" />
+    <ClInclude Include="DlgDither.h" />
+    <ClInclude Include="DlgExpand.h" />
+    <ClInclude Include="DlgFFT.h" />
+    <ClInclude Include="DlgFloodFill.h" />
+    <ClInclude Include="DlgGamma.h" />
+    <ClInclude Include="DlgHisto.h" />
+    <ClInclude Include="DlgIncBpp.h" />
+    <ClInclude Include="DlgJpeg.h" />
+    <ClInclude Include="DlgMix.h" />
+    <ClInclude Include="DlgOpacity.h" />
+    <ClInclude Include="DlgOptions.h" />
+    <ClInclude Include="DlgPalette.h" />
+    <ClInclude Include="DlgRepair.h" />
+    <ClInclude Include="DlgResample.h" />
+    <ClInclude Include="DlgRotate.h" />
+    <ClInclude Include="DlgShadow.h" />
+    <ClInclude Include="DlgSkew.h" />
+    <ClInclude Include="DlgText.h" />
+    <ClInclude Include="DlgThreshold.h" />
+    <ClInclude Include="DlgURL.h" />
+    <ClInclude Include="logomdi.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Quantize.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TwainCpp.h" />
+    <ClInclude Include="xTargetButton.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="demo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\demo.ico" />
+    <None Include="res\demo.rc2" />
+    <None Include="res\demoDoc.ico" />
   </ItemGroup>
 </Project>

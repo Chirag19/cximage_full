@@ -16,3 +16,15 @@
 /raw/x64
 /tiff/x64
 /zlib/x64
+libpsd/Debug/
+mng/Debug/
+jpeg/Debug/
+png/Debug/
+jbig/Debug/
+jasper/Debug/
+tiff/Debug/
+demo/Debug/
+raw/Debug/
+cximage/Debug/
+zlib/Debug/
+Debug/
