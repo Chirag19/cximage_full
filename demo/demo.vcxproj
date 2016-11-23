@@ -96,7 +96,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>wininet.lib;../Debug/png.lib;../Debug/jpeg.lib;../Debug/zlib.lib;../Debug/tiff.lib;../Debug/jbig.lib;../Debug/jasper.lib;../Debug/mng.lib;../Debug/libdcr.lib;../Debug/libpsd.lib;../Debug/cximage.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>../bin/demod.exe</OutputFile>
+      <OutputFile>$(OutDir)demo.exe</OutputFile>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -152,7 +152,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>wininet.lib;../Release/png.lib;../Release/jpeg.lib;../Release/zlib.lib;../Release/tiff.lib;../Release/jbig.lib;../Release/jasper.lib;../Release/mng.lib;../Release/libdcr.lib;../Release/libpsd.lib;../Release/cximage.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>../bin/demo.exe</OutputFile>
+      <OutputFile>$(OutDir)demo.exe</OutputFile>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
