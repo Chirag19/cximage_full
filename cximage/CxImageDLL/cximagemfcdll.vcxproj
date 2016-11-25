@@ -213,6 +213,7 @@
       <TargetMachine>MachineX86</TargetMachine>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;$(OutDir)png.lib;$(OutDir)jpeg.lib;$(OutDir)zlib.lib;$(OutDir)tiff.lib;$(OutDir)jbig.lib;$(OutDir)mng.lib;$(OutDir)jasper.lib;$(OutDir)libdcr.lib;$(OutDir)libpsd.lib</AdditionalDependencies>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
