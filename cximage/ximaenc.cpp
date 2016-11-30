@@ -600,7 +600,15 @@ bool CxImage::Load(const TCHAR * filename, uint32_t imagetype)
 
       bOK = Decode(hFile, imagetype);
       fclose(hFile);
-      if (bOK) return bOK;
+   
+	  // update 2016/11/30 by haoxi911
+	  // if user has specified a valid image type (instead of `unknown`), we will then only
+	  // try once by decoding using that specified image type.
+	  // if any errors happened, we will just return `false`, and won't do the automatic file 
+	  // format recognition, which may cause crashes (e.g. decode a corrupted PNG using MNG).
+	  // another solution could be disabling MNG support, but I haven't tried that way yet.
+	  
+	  /*if (bOK)*/ return bOK;
    }
 
    char szError[256];
